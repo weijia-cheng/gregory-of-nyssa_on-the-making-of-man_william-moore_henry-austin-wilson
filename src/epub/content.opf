@@ -41,7 +41,7 @@
 		<dc:description>
 			DESCRIPTION
 		</dc:description>
-		<dc:language>LANG</dc:language>
+		<dc:language>en-GB</dc:language>
 		<dc:source>TRANSCRIPTION_URL</dc:source>
 		<dc:source>PAGE_SCANS_URL</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
