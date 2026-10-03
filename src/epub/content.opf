@@ -30,64 +30,59 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">On the Making of Man</dc:title>
 		<meta property="file-as" refines="#title">On the Making of Man</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Theological anthropology--Christianity</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
-		<meta property="schema:genre">TAG</meta>
-		<meta property="schema:abstract">ABSTRACT</meta>
+		<meta property="term" refines="#subject-1">sh85080316</meta>
+		<meta property="schema:genre">Nonfiction</meta>
+		<meta property="schema:genre">Philosophy</meta>
+		<meta property="schema:genre">Spirituality</meta>
+		<meta property="schema:abstract">An early Christian theologian expounds on the doctrine of humanity being made in God’s image.</meta>
 		<dc:description>
 			DESCRIPTION
 		</dc:description>
 		<dc:language>en-GB</dc:language>
-		<dc:source>TRANSCRIPTION_URL</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_V/Philosophical_Works/The_Making_of_Man</dc:source>
+		<dc:source>https://archive.org/details/selectlibraryofn05scha</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
-		<link href="EBOOK_WIKI_URL" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/gregory-of-nyssa_on-the-making-of-man_william-moore_henry-austin-wilson" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Gregory of Nyssa</dc:creator>
-		<meta property="file-as" refines="#author">Nyssa, Gregory of</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Gregory of Nyssa</meta>
+		<meta property="alternate-script" refines="#author">Γρηγόριος Νύσσης</meta>
 		<link href="https://en.wikipedia.org/wiki/Gregory_of_Nyssa" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79021401.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="translator-1">William Moore</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Moore, William</meta>
-		<meta property="schema:alternateName" refines="#translator-1">CONTRIBUTOR_FULL_NAME</meta>
-		<link href="https://en.wikipedia.org/wiki/William_Moore" refines="#translator-1" rel="schema:sameAs"/>
-		<link href="CONTRIBUTOR_NACOAF_URI" refines="#translator-1" rel="schema:sameAs"/>
+		<meta property="role" refines="#translator-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#translator-1" scheme="marc:relators">win</meta>
 		<dc:contributor id="translator-2">Henry Austin Wilson</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Wilson, Henry Austin</meta>
-		<meta property="schema:alternateName" refines="#translator-2">CONTRIBUTOR_FULL_NAME</meta>
-		<link href="CONTRIBUTOR_WIKI_URL" refines="#translator-2" rel="schema:sameAs"/>
-		<link href="CONTRIBUTOR_NACOAF_URI" refines="#translator-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n94079882.html" refines="#translator-2" rel="schema:sameAs"/>
+		<meta property="role" refines="#translator-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
-		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
+		<meta property="role" refines="#translator-2" scheme="marc:relators">win</meta>
+		<dc:contributor id="artist-1">Peter Paul Rubens</dc:contributor>
+		<meta property="file-as" refines="#artist-1">Rubens, Peter Paul</meta>
+		<link href="https://en.wikipedia.org/wiki/Peter_Paul_Rubens" refines="#artist-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79055561.html" refines="#artist-1" rel="schema:sameAs"/>
+		<meta property="role" refines="#artist-1" scheme="marc:relators">art</meta>
+		<dc:contributor id="artist-2">Jan Brueghel</dc:contributor>
+		<meta property="file-as" refines="#artist-2">Brueghel, Jan</meta>
+		<link href="https://en.wikipedia.org/wiki/Jan_Brueghel_the_Elder" refines="#artist-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n81089670.html" refines="#artist-2" rel="schema:sameAs"/>
+		<meta property="role" refines="#artist-2" scheme="marc:relators">art</meta>
+		<dc:contributor id="transcriber-1">Wikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Wikisource</meta>
+		<link href="https://en.wikisource.org/" refines="#transcriber-1" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
-		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<dc:contributor id="producer-1">Weijia Cheng</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Cheng, Weijia</meta>
+		<link href="https://www.weijiarhymeswith.asia/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
