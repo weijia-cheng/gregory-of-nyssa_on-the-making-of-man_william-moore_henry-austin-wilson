@@ -30,6 +30,8 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">On the Making of Man</dc:title>
 		<meta property="file-as" refines="#title">On the Making of Man</meta>
+		<meta property="dcterms:alternative" refines="#title">On the Making of the Human Being</meta>
+		<meta property="dcterms:alternative" refines="#title">On the Human Image of God</meta>
 		<dc:subject id="subject-1">Theological anthropology--Christianity</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85080316</meta>
